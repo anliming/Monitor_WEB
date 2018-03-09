@@ -13,13 +13,6 @@ data = {
 index_xhr = [
     {"name":"获取用户信息","url":"https://bpm.yktour.com.cn/ykly-tob-web/getUserInfo"},
     {"name":"获取用户菜单列表","url":"https://bpm.yktour.com.cn/ykly-tob-web/b/login/getUserMenus"},
-    {"name":"获取弹窗通知","url":"https://bpm.yktour.com.cn/ykly-tob-web/b/index/publishNotice/query"},
-    {"name":"获取首页图片","url":"https://bpm.yktour.com.cn/ykly-tob-web/scmParamNotice/indexImg"},
-    {"name":"获取联系我们","url":"https://bpm.yktour.com.cn/ykly-tob-web/b/index/contactUs/batchquery"},
-    {"name":"获取常见问题","url":"https://bpm.yktour.com.cn/ykly-tob-web/b/index/commonProblem/batchquery"},
-    {"name":"获取最新公告","url":"https://bpm.yktour.com.cn/ykly-tob-web/b/index/publishNotice/batchquery"},	
-    {"name":"查询跟团游","url":"https://bpm.yktour.com.cn/ykly-tob-web/productquery/gty/loadltype?producttype=1"},	
-    {"name":"查询我的订单","url":"https://bpm.yktour.com.cn/ykly-tob-web/productquery/gty/loadltype?producttype=1"}
 ]
 
 def get_default_arg():
