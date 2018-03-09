@@ -1,0 +1,30 @@
+2018-02-26 17:18:58,427 WARN For [program:celery_worker], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2018-02-26 17:18:58,427 WARN For [program:celery_beat], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2018-02-26 17:18:58,433 INFO daemonizing the supervisord process
+2018-02-26 17:18:58,434 INFO supervisord started with pid 24570
+2018-02-26 17:18:59,437 INFO spawnerr: unknown error making dispatchers for 'celery_beat': EACCES
+2018-02-26 17:18:59,437 INFO spawnerr: unknown error making dispatchers for 'celery_worker': EACCES
+2018-02-26 17:19:00,438 INFO spawnerr: unknown error making dispatchers for 'celery_beat': EACCES
+2018-02-26 17:19:00,438 INFO spawnerr: unknown error making dispatchers for 'celery_worker': EACCES
+2018-02-26 17:19:02,441 INFO spawnerr: unknown error making dispatchers for 'celery_beat': EACCES
+2018-02-26 17:19:02,441 INFO spawnerr: unknown error making dispatchers for 'celery_worker': EACCES
+2018-02-26 17:19:05,447 INFO spawnerr: unknown error making dispatchers for 'celery_beat': EACCES
+2018-02-26 17:19:05,447 INFO gave up: celery_beat entered FATAL state, too many start retries too quickly
+2018-02-26 17:19:05,447 INFO spawnerr: unknown error making dispatchers for 'celery_worker': EACCES
+2018-02-26 17:19:05,447 INFO gave up: celery_worker entered FATAL state, too many start retries too quickly
+2018-03-09 10:42:27,539 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2018-03-09 10:42:27,539 WARN For [program:celery_worker], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2018-03-09 10:42:27,539 WARN For [program:celery_beat], redirect_stderr=true but stderr_logfile has also been set to a filename, the filename has been ignored
+2018-03-09 10:42:27,541 INFO daemonizing the supervisord process
+2018-03-09 10:42:27,542 INFO supervisord started with pid 46547
+2018-03-09 10:42:28,545 INFO spawned: 'celery_beat' with pid 46548
+2018-03-09 10:42:28,547 INFO spawned: 'celery_worker' with pid 46549
+2018-03-09 10:42:28,741 INFO exited: celery_beat (exit status 73; not expected)
+2018-03-09 10:42:29,849 INFO spawned: 'celery_beat' with pid 46565
+2018-03-09 10:42:29,849 INFO success: celery_worker entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2018-03-09 10:42:30,106 INFO exited: celery_beat (exit status 73; not expected)
+2018-03-09 10:42:32,110 INFO spawned: 'celery_beat' with pid 46578
+2018-03-09 10:42:32,340 INFO exited: celery_beat (exit status 73; not expected)
+2018-03-09 10:42:35,346 INFO spawned: 'celery_beat' with pid 46591
+2018-03-09 10:42:35,539 INFO exited: celery_beat (exit status 73; not expected)
+2018-03-09 10:42:36,541 INFO gave up: celery_beat entered FATAL state, too many start retries too quickly
