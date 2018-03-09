@@ -8,11 +8,6 @@ from task.tasks import send_mail
 index_xhr = [
     {"name":"首页","url":"http://m.yktour.com.cn/#/home"},
     {"name":"出境游","url":"http://m.yktour.com.cn/index/getCmsRecommendedProducts?sid=0&start_city_name=%E5%8C%97%E4%BA%AC&_json=true&_=1519267991592"},
-    {"name":"精选路线","url":"http://m.yktour.com.cn/index/getCompetitiveProductList?currentCity=%E5%8C%97%E4%BA%AC&_json=true&_=1519267991591"},
-    {"name":"滚屏Banner","url":"http://m.yktour.com.cn/product/getProductPopularizeImages?navId=1&_json=true&_=1519267991590"},
-    {"name":"获取当前城市-北京","url":"http://m.yktour.com.cn/appindex/getLocationCity?_json=true&_=1519267991589"},
-    {"name":"检查是否登录","url":"http://m.yktour.com.cn/member/checkLogin"},
-    {"name":"??","url":"http://test.activity.yktour.com.cn/wx/sign/query"}
     ]
 
 def get_default_arg():
