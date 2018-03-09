@@ -27,21 +27,24 @@
 
 ## 项目详解
 
-1. Supervisor服务
-1.1. 服务功能
+#### 1. Supervisor服务
+1. 服务功能
 supervisor配置文件监听了两个任务:
 其一是celery worker，现将发送邮件的任务准备起来，待到主项目调用的时候，直接执行。supervisor监控到这个进程消失，会主动重启。
 其二是celery beat，这个是调用定时任务的模块，supervisor监控到这个进程消失，会主动重启。
-1.2. 配置文件
+2. 配置文件
 ![配置文件](./pic/supervisor_conf.jpg)
 
-2. Celery服务
+#### 2. Celery服务
 Celery分成两部分功能来讲：
 其一是主程序monitor_xx.py触发发邮件的时候调用celery worker.
 其二是需要celery beat来定时执行主程序monitor_xx.py
-2.1. Celery文件说明
+1. Celery文件说明
 ![tree](./pic/celery_tree.jpg) 
-2.2. 任务文件tasks
+2. 任务文件tasks
 ![任务文文件](./pic/tasks.jpg)
+#### 3. 主程序monitor_tob_app
+* monitor_tob_app.py有详细注释
+
 
 
